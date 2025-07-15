@@ -8,5 +8,5 @@ CORS(app)
 def hello():
     return jsonify({'message': 'Hello, World!'})
 
-if __name__ == '__main__': # 이 파일이 메인 프로그램으로 실행될 때
+if __name__ == '__main__': 
     app.run(host='localhost', port=5001, debug=True) 

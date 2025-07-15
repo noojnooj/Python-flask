@@ -41,9 +41,6 @@ source venv/bin/activate
 ```bash
 pip3 install flask
 
-# 버전확인
-pip3 --version
-
 # flask_cors 모듈
 pip3 install flask_cors
 ```
